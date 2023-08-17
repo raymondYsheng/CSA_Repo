@@ -3,6 +3,10 @@ layout: default
 title: Student Blog
 ---
 
+<html>
+    <img src='https://github.com/raymondYsheng/CSA_Repo/issues/1#issue-1855334396'>
+</html>
+
 ## Build you Home Page here 
 This is about your journey. Start now!!!
 ## Overview of Hacks, Study and Tangibles
