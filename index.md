@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Student Blog
+title: Raymond Sheng Blog
 ---
 
 <html>
-    <img src='https://github.com/raymondYsheng/CSA_Repo/issues/1#issue-1855334396'>
+    <img src='./FreeformAboutMe.png'>
 </html>
 
 ## Build you Home Page here 
