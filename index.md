@@ -3,12 +3,9 @@ layout: default
 title: Raymond Sheng Blog
 ---
 <style>
-  .image-container {
-    display: flex; /* Use flexbox to arrange images horizontally */
-  }
     .image {
-    max-width: 50%; /* Each image takes up half of the container */
-    height: auto; /* Maintain aspect ratio */
+    float: left;
+    margin-right: 20px;
   }
 </style>
 
