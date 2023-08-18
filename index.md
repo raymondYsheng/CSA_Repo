@@ -5,7 +5,16 @@ title: Raymond Sheng Blog
 
 <html>
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6'>
+    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb'>
 </html>
+
+| Class Name | Teacher    |
+|------------|------------|
+| CSA        | Mortenson  |
+| AP Stats   | Edelstein  |
+| APEL       | West       |
+| APUSH      | Swanson    |
+| AP Bio     | Cheskaty   |
 
 ## Build you Home Page here 
 This is about your journey. Start now!!!
