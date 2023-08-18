@@ -4,7 +4,7 @@ title: Raymond Sheng Blog
 ---
 
 <html>
-    <img src='./FreeformAboutMe.png'>
+    <img src='https://github.com/raymondYsheng/CSA_Repo/issues/2#issue-1856955361'>
 </html>
 
 ## Build you Home Page here 
