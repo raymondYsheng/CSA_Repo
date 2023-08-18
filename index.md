@@ -4,7 +4,7 @@ title: Raymond Sheng Blog
 ---
 
 <html>
-    <img src='https://github.com/raymondYsheng/CSA_Repo/issues/2#issue-1856955361'>
+    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6'>
 </html>
 
 ## Build you Home Page here 
