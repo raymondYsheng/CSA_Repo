@@ -2,6 +2,15 @@
 layout: default
 title: Raymond Sheng Blog
 ---
+<style>
+  .image-container {
+    display: flex; /* Use flexbox to arrange images horizontally */
+  }
+    .image {
+    max-width: 50%; /* Each image takes up half of the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+</style>
 
 <html>
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6'>
