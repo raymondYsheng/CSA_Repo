@@ -22,9 +22,10 @@ title: Raymond Sheng Blog
     padding: 20px;  
     color: blue;  
   }
-  #calc{  
-    width: 270px;  
-    border: 3px solid black;  
+  #calc
+  {  
+    width: 250px;  
+    border: 3px solid gray;  
     border-radius: 3px;  
     padding: 20px;  
   }  
