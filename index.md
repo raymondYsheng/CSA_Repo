@@ -14,13 +14,21 @@ title: Raymond Sheng Blog
       margin: 5px;  
       font-size: 15px;  
   }
-  #clear{ 
+  #clear
+  { 
     width: 270px;  
     border: 3px solid gray;  
     border-radius: 3px;  
     padding: 20px;  
-    background-color: blue;  
+    color: blue;  
+  }
+  #calc{  
+    width: 270px;  
+    border: 3px solid black;  
+    border-radius: 3px;  
+    padding: 20px;  
   }  
+  
 
   
 </style>
