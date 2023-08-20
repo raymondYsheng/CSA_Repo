@@ -13,6 +13,10 @@ title: Raymond Sheng Blog
       margin: 5px;  
       font-size: 15px;  
   }
+
+  body {
+    color: purple;
+  }
   
 </style>
 <html>
