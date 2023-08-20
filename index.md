@@ -5,7 +5,7 @@ title: Raymond Sheng Blog
 <style>
   input  
   {  
-  width: 20px;  
+  width: 25px;  
   background-color: white;
   color: black;
   border: 3px solid gray;  
