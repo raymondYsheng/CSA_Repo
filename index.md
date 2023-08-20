@@ -10,7 +10,6 @@ title: Raymond Sheng Blog
 <body>
   <h1>Calculator</h1>
   
-  <input type="text" id="display" readonly>
 <div class="calculator-grid">
 <form name = "form1">  
       
