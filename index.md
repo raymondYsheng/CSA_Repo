@@ -2,12 +2,6 @@
 layout: default
 title: Raymond Sheng Blog
 ---
-<!-- <style>
-    .image {
-    float: left;
-    margin-right: 20px;
-  }
-</style> -->
 
 <html>
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250">
@@ -17,56 +11,41 @@ title: Raymond Sheng Blog
   <h1>Calculator</h1>
   
   <input type="text" id="display" readonly>
-  
-  <table>
-      <tr>
-          <td><button onclick="appendToDisplay('7')">7</button></td>
-          <td><button onclick="appendToDisplay('8')">8</button></td>
-          <td><button onclick="appendToDisplay('9')">9</button></td>
-          <td><button onclick="appendToDisplay('+')">+</button></td>
-      </tr>
-      <tr>
-          <td><button onclick="appendToDisplay('4')">4</button></td>
-          <td><button onclick="appendToDisplay('5')">5</button></td>
-          <td><button onclick="appendToDisplay('6')">6</button></td>
-          <td><button onclick="appendToDisplay('-')">-</button></td>
-      </tr>
-      <tr>
-          <td><button onclick="appendToDisplay('1')">1</button></td>
-          <td><button onclick="appendToDisplay('2')">2</button></td>
-          <td><button onclick="appendToDisplay('3')">3</button></td>
-          <td><button onclick="appendToDisplay('*')">*</button></td>
-      </tr>
-      <tr>
-          <td><button onclick="appendToDisplay('0')">0</button></td>
-          <td><button onclick="calculate()">=</button></td>
-          <td><button onclick="appendToDisplay('.')">.</button></td>
-          <td><button onclick="appendToDisplay('/')">/</button></td>
-      </tr>
-      <tr>
-        <td><button onclick="clearDisplay()">C</button></td>
-      </tr>
-  </table>
-  
-  <script>
-      function appendToDisplay(value) {
-          document.getElementById('display').value += value;
-      }
+<div class="calculator-grid">
+<form name = "form1">  
+      
+  <input id = "calc" type ="text" name = "answer"> <br> <br>
 
-      function clearDisplay() {
-          document.getElementById('display').value = '';
-      }
+  <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
+  <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">  
+  <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">  
+  <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">  
+  <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">  
+  <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">  
+  <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
+  <br> <br>  
 
-      function calculate() {
-          try {
-              const expression = document.getElementById('display').value;
-              const result = eval(expression);
-              document.getElementById('display').value = result;
-          } catch (error) {
-              document.getElementById('display').value = 'Error';
-          }
-      }
-  </script>
+  <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
+  <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
+  <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
+  <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
+  <br> <br>  
+    
+  <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
+  <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
+  <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
+
+  <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
+  <br>   
+  <input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >  
+  <br>   
+    
+</form>  
+</div>
+  
 </body>
 </html>
 
