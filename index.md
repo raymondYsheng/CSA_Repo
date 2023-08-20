@@ -67,6 +67,47 @@ title: Raymond Sheng Blog
       </script>
     </body>
 </html>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    #display {
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+        margin: 10px;
+    }
+
+    table {
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    td {
+        padding: 10px;
+    }
+
+    button {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #2980b9;
+    }
+</style>
 
 | Class Name | Teacher    |
 |------------|------------|
