@@ -6,7 +6,8 @@ title: Raymond Sheng Blog
   input  
   {  
   width: 20px;  
-  color: white;  
+  background-color: white;
+  color: black;
   border: 3px solid gray;  
       border-radius: 5px;  
       padding: 26px;  
@@ -14,9 +15,6 @@ title: Raymond Sheng Blog
       font-size: 15px;  
   }
 
-  body {
-    color: purple;
-  }
   
 </style>
 <html>
