@@ -2,7 +2,19 @@
 layout: default
 title: Raymond Sheng Blog
 ---
-
+<style>
+  input  
+  {  
+  width: 20px;  
+  color: white;  
+  border: 3px solid gray;  
+      border-radius: 5px;  
+      padding: 26px;  
+      margin: 5px;  
+      font-size: 15px;  
+  }
+  
+</style>
 <html>
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250">
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb' width="500" height="490">
