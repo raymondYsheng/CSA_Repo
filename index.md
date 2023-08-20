@@ -2,12 +2,12 @@
 layout: default
 title: Raymond Sheng Blog
 ---
-<style>
+<!-- <style>
     .image {
     float: left;
     margin-right: 20px;
   }
-</style>
+</style> -->
 
 <html>
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250">
