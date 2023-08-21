@@ -3,67 +3,15 @@ layout: default
 title: Raymond Sheng Blog
 ---
 <style>
-  .calculator-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* This centers it vertically on the page */
-}
-
-.calculator-grid form {
-  text-align: center;
-}
-
-.calculator-grid input[type="text"],
-.calculator-grid input[type="button"] {
-  padding: 10px 20px;
-  margin: 5px;
-  font-size: 18px;
-}
-
-#clear {
-  background-color: #ff0000; /* Change to your desired color */
-  color: #fff; /* Text color */
-  border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-#clear:hover {
-  background-color: #cc0000; /* Change to your desired hover color */
-}
-
-/* input  
-  {  
-  width: 25px;  
-  background-color: white;
-  color: black;
-  border: 3px solid gray;  
-      border-radius: 5px;  
-      padding: 26px;  
-      margin: 5px;  
-      font-size: 15px;  
+  #calculator {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+      background-image: linear-gradient(blue, purple);
   }
-  #clear
-  { 
-    width: 270px;  
-    border: 3px solid gray;  
-    border-radius: 3px;  
-    padding: 20px;  
-    color: blue;  
-  }
-  #calc
-  {  
-    width: 250px;  
-    border: 3px solid gray;  
-    border-radius: 3px;  
-    padding: 20px;  
-  }  
-   */
-
   
 </style>
 <html>
@@ -73,7 +21,7 @@ title: Raymond Sheng Blog
 <body>
   <h1>Calculator</h1>
   
-<div class="calculator-grid">
+<div class="calculator">
 <form name = "form1">  
       
   <input id = "calc" type ="text" name = "answer"> <br> <br>
@@ -100,11 +48,19 @@ title: Raymond Sheng Blog
   <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
   <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
 
-  <input type = "button" value = "=" onclick = "form1.answer.value = eval(form1.answer.value) ">  
+  <input type = "button" value = "=" onclick = "calculate()">  
   <br>   
-  <input type = "button" value = "Clear All" onclick = "form1.answer.value = ' ' " id= "clear" >  
+  <input type = "button" value = "A/C" onclick = "form1.answer.value = ' ' " id= "clear" >  
   <br>   
-    
+  <script>
+    function calculate() {
+            try {
+                form1.answer.value = eval(form1.answer.value);
+            } catch (error) {
+                form1.answer.value = 'Error';
+            }
+    }
+  </script>
 </form>  
 </div>
   
