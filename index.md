@@ -3,7 +3,40 @@ layout: default
 title: Raymond Sheng Blog
 ---
 <style>
-  input  
+  .calculator-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* This centers it vertically on the page */
+}
+
+.calculator-grid form {
+  text-align: center;
+}
+
+.calculator-grid input[type="text"],
+.calculator-grid input[type="button"] {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 18px;
+}
+
+#clear {
+  background-color: #ff0000; /* Change to your desired color */
+  color: #fff; /* Text color */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#clear:hover {
+  background-color: #cc0000; /* Change to your desired hover color */
+}
+
+/* input  
   {  
   width: 25px;  
   background-color: white;
@@ -29,7 +62,7 @@ title: Raymond Sheng Blog
     border-radius: 3px;  
     padding: 20px;  
   }  
-  
+   */
 
   
 </style>
