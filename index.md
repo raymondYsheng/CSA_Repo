@@ -12,7 +12,27 @@ title: Raymond Sheng Blog
       text-align: center;
       background-image: linear-gradient(blue, purple);
   }
-  
+  input[type=button] {
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:15px;
+	padding:13px 15px;
+	text-decoration:none;
+}
+  input[type=button]:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+  input[type=button]:active {
+	position:relative;
+	top:1px;
+}
 </style>
 <html>
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250">
