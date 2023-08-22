@@ -3,7 +3,7 @@ layout: default
 title: Raymond Sheng Blog
 ---
 <style>
-  #calculator {
+  .calculator {
       width: 300px;
       margin: 0 auto;
       padding: 20px;
