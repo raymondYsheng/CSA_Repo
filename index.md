@@ -10,10 +10,10 @@ title: Raymond Sheng Blog
       border: 1px solid #ccc;
       border-radius: 5px;
       text-align: center;
-      background-image: linear-gradient(blue, purple);
+      background-image: linear-gradient(blue, #7a55e0 100%);
   }
   input[type=button] {
-	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background:linear-gradient(to bottom, #b6bae3 5%, #415989 100%);
 	background-color:#2e466e;
 	border-radius:17px;
 	border:1px solid #1f2f47;
@@ -32,6 +32,9 @@ title: Raymond Sheng Blog
   input[type=button]:active {
 	position:relative;
 	top:1px;
+}
+#calc {
+  	padding:13px 15px;
 }
 </style>
 <html>
@@ -69,7 +72,7 @@ title: Raymond Sheng Blog
   <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
 
   <input type = "button" value = "=" onclick = "calculate()">  
-  <br>   
+  <br><br>
   <input type = "button" value = "A/C" onclick = "form1.answer.value = ' ' " id= "clear" >  
   <br>   
   <script>
