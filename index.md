@@ -42,7 +42,7 @@ title: Raymond Sheng Blog
   display: flex;
 }
 .column {
-  flex: 33.33%;
+  width: 100%;
   padding: 5px;
 }
 </style>
