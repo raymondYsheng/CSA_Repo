@@ -2,6 +2,7 @@
 layout: default
 title: Raymond Sheng Blog
 ---
+<head>
 <style>
   .calculator {
       width: 300px;
@@ -37,13 +38,15 @@ title: Raymond Sheng Blog
   	padding:13px 15px;
 }
 </style>
+</head>
+
 <html>
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250">
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb' width="500" height="490">
 
 <body>
   <h1>Calculator</h1>
-  
+
 <div class="calculator">
 <form name = "form1">  
       
