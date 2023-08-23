@@ -36,15 +36,27 @@ title: Raymond Sheng Blog
 }
 #calc {
     font-size:30px;
-  	padding:13px 15px;
+  	padding:0 0;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 </style>
 </head>
 
 <html>
+<div class="row">
+    <div class="column">
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250">
+    </div>
+    <div class="column">
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb' width="500" height="490">
-
+    </div>
+</div>
 <body>
   <h1>Calculator</h1>
 
