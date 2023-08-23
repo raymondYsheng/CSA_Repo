@@ -37,6 +37,8 @@ title: Raymond Sheng Blog
 #calc {
     font-size:30px;
   	padding:0 0;
+    width: 200px;
+    text-align: center;
 }
 .row {
   display: flex;
