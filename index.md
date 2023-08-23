@@ -21,7 +21,6 @@ title: Raymond Sheng Blog
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Times New Roman;
 	font-size:15px;
 	padding:13px 15px;
 	text-decoration:none;
