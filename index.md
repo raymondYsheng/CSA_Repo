@@ -11,6 +11,7 @@ title: Raymond Sheng Blog
       border: 1px solid #ccc;
       border-radius: 5px;
       text-align: center;
+      font-size:30px;
       background-image: linear-gradient(blue, #7a55e0 100%);
   }
   input[type=button] {
@@ -21,7 +22,7 @@ title: Raymond Sheng Blog
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-size:15px;
+	font-size:20px;
 	padding:13px 15px;
 	text-decoration:none;
 }
@@ -34,6 +35,7 @@ title: Raymond Sheng Blog
 	top:1px;
 }
 #calc {
+    font-size:30px;
   	padding:13px 15px;
 }
 </style>
