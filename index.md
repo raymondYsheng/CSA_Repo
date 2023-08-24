@@ -56,7 +56,7 @@ title: Raymond Sheng Blog
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250">
     </div>
     <div class="column">
-    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb' width="500" height="490">
+    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb' width="250" height="490">
     </div>
 </div>
 <body>
@@ -104,15 +104,65 @@ title: Raymond Sheng Blog
   </script>
 </form>  
 </div>
-  
+    <h1>Audio Recorder</h1>
+    <button id="recordButton">Record</button>
+    <button id="playButton" disabled>Play</button>
+    <audio id="audioPlayer" controls></audio>
+
+  <script>
+      let mediaRecorder;
+      let audioChunks = [];
+
+      const recordButton = document.getElementById('recordButton');
+      const playButton = document.getElementById('playButton');
+      const audioPlayer = document.getElementById('audioPlayer');
+
+      recordButton.addEventListener('click', () => {
+          if (mediaRecorder && mediaRecorder.state === 'recording') {
+              mediaRecorder.stop();
+              recordButton.innerText = 'Record';
+              playButton.disabled = false;
+          } else {
+              navigator.mediaDevices.getUserMedia({ audio: true })
+                  .then(stream => {
+                      mediaRecorder = new MediaRecorder(stream);
+
+                      mediaRecorder.ondataavailable = event => {
+                          if (event.data.size > 0) {
+                              audioChunks.push(event.data);
+                          }
+                      };
+
+                      mediaRecorder.onstop = () => {
+                          const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
+                          const audioUrl = URL.createObjectURL(audioBlob);
+                          audioPlayer.src = audioUrl;
+                      };
+
+                      mediaRecorder.start();
+                      recordButton.innerText = 'Stop Recording';
+                      playButton.disabled = true;
+                  })
+                  .catch(error => {
+                      console.error('Error accessing microphone:', error);
+                  });
+          }
+      });
+
+      playButton.addEventListener('click', () => {
+          if (audioPlayer.src) {
+              audioPlayer.play();
+          }
+      });
+  </script>
 </body>
 </html>
-
+<!-- 
 | Class Name | Teacher    |
 |------------|------------|
 | CSA        | Mortenson  |
 | AP Stats   | Edelstein  |
 | APEL       | West       |
 | APUSH      | Swanson    |
-| AP Bio     | Cheskaty   |
+| AP Bio     | Cheskaty   | -->
 

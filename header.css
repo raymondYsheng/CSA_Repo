@@ -1,5 +1,8 @@
 *{
     font-family: 'ADLaM Display';
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
 }
     /* Your CSS styles here */
     .site-header {
