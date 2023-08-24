@@ -47,6 +47,36 @@ title: Raymond Sheng Blog
   width: 100%;
   padding: 5px;
 }
+#recordButton {
+  width:70px;
+  height:50px;
+  text-align: center;
+  background-color: #42f54e;
+}
+#recordButton:hover {
+  background-color: #42f5b3;
+}
+#playButton {
+    width:70px;
+  height:50px;
+  text-align: center;
+    background-color: #f20707;
+}
+#playButton:hover {
+  background-color: #f25107;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+.center2 {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 </style>
 </head>
 
@@ -63,51 +93,56 @@ title: Raymond Sheng Blog
   <h1>Calculator</h1>
 
 <div class="calculator">
-<form name = "form1">  
+<form name = "form">  
       
   <input id = "calc" type ="text" name = "answer"> <br> <br>
 
-  <input type = "button" value = "7" onclick = "form1.answer.value += '7' ">  
-  <input type = "button" value = "8" onclick = "form1.answer.value += '8' ">  
-  <input type = "button" value = "9" onclick = "form1.answer.value += '9' ">  
-  <input type = "button" value = "*" onclick = "form1.answer.value += '*' ">  
+  <input type = "button" value = "7" onclick = "form.answer.value += '7' ">  
+  <input type = "button" value = "8" onclick = "form.answer.value += '8' ">  
+  <input type = "button" value = "9" onclick = "form.answer.value += '9' ">  
+  <input type = "button" value = "*" onclick = "form.answer.value += '*' ">  
   <br> <br>  
     
-  <input type = "button" value = "4" onclick = "form1.answer.value += '4' ">  
-  <input type = "button" value = "5" onclick = "form1.answer.value += '5' ">  
-  <input type = "button" value = "6" onclick = "form1.answer.value += '6' ">  
-  <input type = "button" value = "-" onclick = "form1.answer.value += '-' ">  
+  <input type = "button" value = "4" onclick = "form.answer.value += '4' ">  
+  <input type = "button" value = "5" onclick = "form.answer.value += '5' ">  
+  <input type = "button" value = "6" onclick = "form.answer.value += '6' ">  
+  <input type = "button" value = "-" onclick = "form.answer.value += '-' ">  
   <br> <br>  
 
-  <input type = "button" value = "1" onclick = "form1.answer.value += '1' ">  
-  <input type = "button" value = "2" onclick = "form1.answer.value += '2' ">  
-  <input type = "button" value = "3" onclick = "form1.answer.value += '3' ">  
-  <input type = "button" value = "+" onclick = "form1.answer.value += '+' ">  
+  <input type = "button" value = "1" onclick = "form.answer.value += '1' ">  
+  <input type = "button" value = "2" onclick = "form.answer.value += '2' ">  
+  <input type = "button" value = "3" onclick = "form.answer.value += '3' ">  
+  <input type = "button" value = "+" onclick = "form.answer.value += '+' ">  
   <br> <br>  
     
-  <input type = "button" value = "/" onclick = "form1.answer.value += '/' ">  
-  <input type = "button" value = "0" onclick = "form1.answer.value += '0' ">  
-  <input type = "button" value = "." onclick = "form1.answer.value += '.' ">  
+  <input type = "button" value = "/" onclick = "form.answer.value += '/' ">  
+  <input type = "button" value = "0" onclick = "form.answer.value += '0' ">  
+  <input type = "button" value = "." onclick = "form.answer.value += '.' ">  
 
   <input type = "button" value = "=" onclick = "calculate()">  
   <br><br>
-  <input type = "button" value = "A/C" onclick = "form1.answer.value = ' ' " id= "clear" >  
+  <input type = "button" value = "A/C" onclick = "form.answer.value = ' '" id= "clear" >  
   <br>   
   <script>
     function calculate() {
-            try {
-                form1.answer.value = eval(form1.answer.value);
-            } catch (error) {
-                form1.answer.value = 'Error';
-            }
+      try {
+        form.answer.value = eval(form.answer.value);
+      } catch (error) {
+        form.answer.value = 'Error';
+      }
     }
   </script>
 </form>  
 </div>
     <h1>Audio Recorder</h1>
+    <br>
+    <div class="center">
     <button id="recordButton">Record</button>
     <button id="playButton" disabled>Play</button>
+    </div>
+    <div class="center2">
     <audio id="audioPlayer" controls></audio>
+    </div>
 
   <script>
       let mediaRecorder;
