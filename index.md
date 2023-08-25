@@ -77,16 +77,19 @@ title: Raymond Sheng Blog
   left: 50%;
   transform: translate(-50%, -50%);
 }
+img.rounded-corners {
+  border-radius:30px;
+}
 </style>
 </head>
 
 <html>
 <div class="row">
     <div class="column">
-    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250">
+    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250" class="wdn-stretch rounded-corners">
     </div>
     <div class="column">
-    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb' width="250" height="490">
+    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb' width="250" height="490" class="wdn-stretch rounded-corners">
     </div>
 </div>
 <body>
