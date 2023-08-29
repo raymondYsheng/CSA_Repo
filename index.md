@@ -5,11 +5,19 @@ title: Raymond Sheng Blog
 <head>
 <style> 
 .row {
-  display: flex;
+    display: flex;
+    justify-content: center; /* Horizontally center items */
+    align-items: center; /* Vertically center items */
 }
 .column {
-  width: 100%;
-  padding: 5px;
+    margin: 10px; /* Add some spacing between the columns if needed */
+}
+/* Add any other CSS styles you need for the images */
+.wdn-stretch {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* Rounded corners */
 }
 #recordButton {
   width:70px;
@@ -44,10 +52,21 @@ title: Raymond Sheng Blog
 img.rounded-corners {
   border-radius:30px;
 }
+.center3 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.welcome {
+  text-align: center;
+  font-size: 25px;
+}
+
 </style>
 </head>
 
 <html>
+<div class="welcome">Welcome to Raymond's Blog.</div>
 <div class="row">
     <div class="column">
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250" class="wdn-stretch rounded-corners">
@@ -56,7 +75,9 @@ img.rounded-corners {
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb' width="250" height="490" class="wdn-stretch rounded-corners">
     </div>
 </div>
+    <div class="center3">
     <h1>Audio Recorder</h1>
+    </div>
     <br>
     <div class="center">
     <button id="recordButton">Record</button>
