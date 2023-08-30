@@ -6,18 +6,17 @@ title: Raymond Sheng Blog
 <style> 
 .row {
     display: flex;
-    justify-content: center; /* Horizontally center items */
-    align-items: center; /* Vertically center items */
+  justify-content: space-between;
 }
 .column {
-    margin: 10px; /* Add some spacing between the columns if needed */
+  display: flex;
+  justify-content: center;
 }
-/* Add any other CSS styles you need for the images */
 .wdn-stretch {
     max-width: 100%;
     height: auto;
     display: block;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px;
 }
 #recordButton {
   width:70px;
