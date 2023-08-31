@@ -65,10 +65,14 @@ img.rounded-corners {
 </head>
 
 <html>
+<br>
 <div class="welcome">Welcome to Raymond's Blog.</div>
 <div class="row">
     <div class="column">
-    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250" class="wdn-stretch rounded-corners">
+    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/03fcccb9-e6ca-4f75-b00c-408ac15ce7d6' width="250" class="wdn-stretch rounded-corners" style="border: 1px solid; border-image-slice: 1;">
+    </div>
+    <div class="column">
+    <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/67084ce8-d145-4d68-83c7-07d15535dde3' class="wdn-stretch rounded-corners">
     </div>
     <div class="column">
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb' width="250" height="490" class="wdn-stretch rounded-corners">
