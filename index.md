@@ -136,7 +136,7 @@ img.rounded-corners {
           }
       });
   </script> -->
-</html>
+<!-- </html> -->
 <!-- 
 | Class Name | Teacher    |
 |------------|------------|
