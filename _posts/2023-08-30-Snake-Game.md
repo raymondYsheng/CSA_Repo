@@ -6,7 +6,8 @@ permalink: /frontend/snake
 image: /images/snake.png
 categories: [C4.9]
 tags: [javascript]
-courses: { csa: {week 2}}
+courses: { csp: {week: 2}}
+type: tangibles
 ---
 
 <style>

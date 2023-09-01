@@ -77,7 +77,7 @@ img.rounded-corners {
     <div class="column">
     <img src='https://github.com/raymondYsheng/CSA_Repo/assets/142441804/227c1f2d-c74e-4239-b062-7fd054684ccb' width="250" height="490" class="wdn-stretch rounded-corners">
     </div>
-</div>
+<!-- </div>
     <div class="center3">
     <h1>Audio Recorder</h1>
     </div>
@@ -90,7 +90,7 @@ img.rounded-corners {
     <audio id="audioPlayer" controls></audio>
     </div>
 
-  <script>
+  <!-- <script>
       let mediaRecorder;
       let audioChunks = [];
 
@@ -135,7 +135,7 @@ img.rounded-corners {
               audioPlayer.play();
           }
       });
-  </script>
+  </script> -->
 </html>
 <!-- 
 | Class Name | Teacher    |

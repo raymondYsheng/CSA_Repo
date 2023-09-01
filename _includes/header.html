@@ -37,7 +37,23 @@
     .site-header nav a:hover {
       color: #8000f7;
     }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 </style>
+
 <header class="site-header">
 <link rel="stylesheet" href="header.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +63,7 @@
     <nav>
       <ul>
         <li class="fork"><a href="{{site.baseurl}}/">Home</a></li>
-        <li class="fork"><a href="{{site.baseurl}}/schedule">Schedule</a></li>
+        <li class="fork"><a href="{{site.baseurl}}/csp">Schedule</a></li>
         <li class="fork"><a href="{{site.baseurl}}/blogs">Blogs</a></li>
         <li class="title"><a href="{{ site.github.repository_url}}#readme">View On GitHub</a></li>
       </ul>
