@@ -269,6 +269,8 @@ java: `!(true || false)`
 
 **Question: What would 1+0 be? What about !(true||false)**
 
+false
+
 ### XOR
 
 **XOR**, eXclusive OR, *or* bitwise OR allows for a coder to only return true if specifically only one input is true, but the other input is false. For example, this would be a situation where, if you have two objects, you can only take one or the other, not both, and not none. 
@@ -344,6 +346,8 @@ java: `!(true^false)`
 </table>
 
 **Question: what would true^false be? what would !(false^false) be?**
+true^false = true
+!(false^false) = true
 
 ## PEMDASNAO 
 1. Parenthesis
