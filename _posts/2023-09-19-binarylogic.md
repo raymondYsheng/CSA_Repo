@@ -27,6 +27,8 @@ The **NOT** operator inverses whatever it is affecting.
 The most basic operation is one that does
 
 **Question: What NOT(true)**
+<br>
+false
 
 ## Operation(s): **AND**
 
@@ -187,6 +189,12 @@ java: `X&&!(Y)`
 Note how the first and second terms (in their respective inhibitions) are inverted.
 
 **Question: What would 1(0) be? What about (1)(0)'? What about true&&false?**
+<br>
+1(0) = 0
+<br>
+1(0)' = 1
+<br>
+true && false = false
 
 ## Operation(s): OR
 
@@ -268,7 +276,9 @@ java: `!(true || false)`
 
 
 **Question: What would 1+0 be? What about !(true||false)**
-
+<br>
+true
+<br>
 false
 
 ### XOR
