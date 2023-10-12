@@ -386,18 +386,3 @@ Notice how it the conjunction references AND and disjunction represents OR. Thus
 - NOT (A AND B) is equivalent to (NOT A) OR (NOT B)
 ```
 This is very useful when evaluating boolean expressions.
-
-# Hacks 
-
-Complete the weird questions below.
-### Weird questions
-1. !(true)&&(false) = ? what in boolean values?
-2. not ((((true and not (false)) ^ false) ^ true) && false) (remember PEMDASNAO!)
-3. Prove the following: !A * !(B + !C) = !A * (!B * !C)
-4. 420 && 66 (Hint, convert to binary, then perform the operation)
-   1. If you got this one, try 89 OR 42
-
-For each example, you can use code, but then show your work and how you got it. Please ask questions if you are confused!
-
-
-
