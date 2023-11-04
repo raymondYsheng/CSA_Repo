@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="CKhFaQluY-VXZ1cWxFVc" name="Page-1">
-        <mxGraphModel dx="488" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1258" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -15,7 +15,7 @@
                         <mxRectangle width="190" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="6" value="startEngine()&lt;br&gt;stopEngine()&lt;br&gt;honkHorn()&lt;br&gt;accelerate(speed)&lt;br&gt;make&lt;br&gt;year" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="1">
+                <mxCell id="6" value="startEngine()&lt;br&gt;stopEngine()&lt;br&gt;honkHorn()&lt;br&gt;accelerate(speed)&lt;br&gt;make&lt;br&gt;year&lt;br&gt;totalTransport&lt;br&gt;fuelType" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="1">
                     <mxGeometry x="200" y="50" width="190" height="100" as="geometry">
                         <mxRectangle width="190" height="40" as="alternateBounds"/>
                     </mxGeometry>
@@ -42,12 +42,12 @@
                         <mxRectangle width="190" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="startEngine() (Override)&lt;br&gt;openTrunk()&lt;br&gt;drive(mileage)&lt;br&gt;numDoors&lt;br&gt;maxSpeed" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="1">
-                    <mxGeometry x="70" y="250" width="190" height="100" as="geometry">
+                <mxCell id="19" value="startEngine() (Override)&lt;br&gt;openTrunk()&lt;br&gt;drive(mileage)&lt;br&gt;numDoors&lt;br&gt;maxSpeed&lt;br&gt;totalCars&lt;br&gt;currentSpeed&lt;br&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="250" width="190" height="120" as="geometry">
                         <mxRectangle width="190" height="40" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="pedal()&lt;br&gt;ringBell()&lt;br&gt;numGears&lt;br&gt;color" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="1">
+                <mxCell id="20" value="pedal()&lt;br&gt;ringBell()&lt;br&gt;numGears&lt;br&gt;color&lt;br&gt;totalBicycles&lt;br&gt;currentSpeed" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="1">
                     <mxGeometry x="360" y="240" width="190" height="100" as="geometry">
                         <mxRectangle width="190" height="40" as="alternateBounds"/>
                     </mxGeometry>
